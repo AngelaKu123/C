@@ -1,0 +1,10 @@
+TARGET=exe_fig5_5
+
+$(TARGET): fig5_5.o error.o
+	$(CC) -o $@ $^ 
+
+fig13_4.o: fig5_5.c
+error.o: error.c
+
+clean:
+	rm -f fig5_5.o error.o $(TARGET)
