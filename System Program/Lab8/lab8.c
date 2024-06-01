@@ -99,3 +99,6 @@ void accumulation(int d_sum) // Accumulating the daily sum to "sum.txt".
 	
 	return;
 }
+
+
+// https://chatgpt.com/share/db0c7805-aac2-4e30-a2c8-45c124881a34
